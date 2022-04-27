@@ -1,9 +1,9 @@
 [submodule "arquitectura-backend"]
-    path = arquitectura-backend
-    url = git@github.com:LuisXVI-Flash/arquitectura-backend.git
+	path = arquitectura-backend
+	url = https://github.com/LuisXVI-Flash/arquitectura-backend.git
 [submodule "arquitectura-docker"]
-    path = arquitectura-docker
-    url = git@github.com:LuisXVI-Flash/arquitectura-docker.git
+	path = arquitectura-docker
+	url = https://github.com/LuisXVI-Flash/arquitectura-docker.git
 [submodule "arquitectura-frontend"]
-    path = arquitectura-frontend
-    url = git@github.com:LuisXVI-Flash/arquitectura-frontend.git
+	path = arquitectura-frontend
+	url = https://github.com/LuisXVI-Flash/arquitectura-frontend.git
