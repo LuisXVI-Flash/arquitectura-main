@@ -10,4 +10,4 @@ echo "Instalando dependencias"
 npm install --prefix ${FE_APP_PATH} --force
 npm install --prefix ${BE_APP_PATH} --force
 
-COMPOSE_HTTP_TIMEOUT=200 docker-compose -f ./arquitectura-docker/docker-compose-produccion.yml up
+COMPOSE_HTTP_TIMEOUT=200 docker-compose -f ./arquitectura-docker/docker-compose-produccion.yml up --build --no-deps --force-recreate
